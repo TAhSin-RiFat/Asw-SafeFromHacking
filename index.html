@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberGuard | Learn to be Safe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">🛡️ CyberGuard</div>
+        <button id="menu-toggle">☰ Topics</button>
+    </header>
+
+    <div class="container">
+        <nav id="sidebar">
+            <h3>Start Here</h3>
+            <ul>
+                <li><a href="#" class="active" onclick="loadTopic('intro')">Introduction</a></li>
+                <li><a href="#" onclick="loadTopic('passwords')">1. Strong Passwords</a></li>
+                <li><a href="#" onclick="loadTopic('phishing')">2. Spotting Phishing</a></li>
+                <li><a href="#" onclick="loadTopic('mfa')">3. 2-Factor Auth</a></li>
+                <li><a href="#" onclick="loadTopic('wifi')">4. Public Wi-Fi</a></li>
+            </ul>
+        </nav>
+
+        <main id="content">
+            <h1>Welcome to CyberGuard</h1>
+            <p>Hacking isn't just about computers; it's about people. Learn how to protect your digital life.</p>
+            <div class="card">
+                <h2>Why Security Matters?</h2>
+                <p>Every 39 seconds, there is a hacker attack somewhere in the web. Protecting your data is crucial.</p>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
